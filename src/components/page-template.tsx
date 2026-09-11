@@ -14,7 +14,7 @@ export function PageTemplate({
   children,
 }: PageTemplateProps) {
   return (
-    <article className="page-enter mx-auto w-full max-w-4xl px-6 py-12 sm:px-10 sm:py-16">
+    <article className="page-enter mx-auto w-full max-w-4xl px-6 pb-12 pt-24 sm:px-10 sm:py-16">
       <header className="mb-10 max-w-2xl">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--accent-deep)]">
           {eyebrow}

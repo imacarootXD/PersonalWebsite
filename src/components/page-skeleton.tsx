@@ -1,6 +1,6 @@
 export function PageSkeleton() {
   return (
-    <div className="mx-auto w-full max-w-4xl px-6 py-12 sm:px-10 sm:py-16">
+    <div className="mx-auto w-full max-w-4xl px-6 pb-12 pt-24 sm:px-10 sm:py-16">
       <div className="mb-10 max-w-2xl space-y-4">
         <div className="skeleton h-3 w-24" />
         <div className="skeleton h-12 w-3/4" />
