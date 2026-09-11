@@ -37,7 +37,7 @@ export default function HomePage() {
           Get in touch
         </Link>
         <a
-          href="/cv.pdf"
+          href="/CV.pdf"
           download="John-de Laubenque CV.pdf"
           className="rounded-full border border-[var(--line)] bg-[var(--card)] px-5 py-2.5 text-sm font-medium text-[var(--ink)] transition-transform hover:-translate-y-0.5"
         >
