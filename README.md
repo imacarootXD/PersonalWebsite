@@ -40,4 +40,4 @@ for more about next.js/ts
 
 Free to use for anyone
 Do not claim ownership
-Original - 
+Original - https://github.com/imacarootXD/PersonalWebsite
