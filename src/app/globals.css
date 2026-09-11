@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4efe6;
+  --ink: #1c1814;
+  --muted: #6b6258;
+  --line: #e4d9c9;
+  --card: #fffaf3;
+  --accent: #c46a2b;
+  --accent-deep: #9b4e1c;
+  --accent-fg: #fff8f0;
+  --sidebar: #171411;
+  --sidebar-fg: #f6eee4;
+  --sidebar-muted: #b7aa9a;
+  --sidebar-border: #2a241f;
+  --sidebar-hover: #261f1a;
+  --sidebar-active: #332920;
+  --background: var(--paper);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: page-in 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.skeleton {
+  border-radius: 0.75rem;
+  background: linear-gradient(
+    90deg,
+    #e8ddd0 0%,
+    #f6eee4 45%,
+    #e8ddd0 90%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.2s ease-in-out infinite;
+}
+
+.top-progress {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 40;
+  height: 3px;
+  transform-origin: left;
+  background: var(--accent);
+  animation: progress-run 900ms ease-out both;
+}
+
+@keyframes progress-run {
+  0% {
+    transform: scaleX(0);
+  }
+  70% {
+    transform: scaleX(0.72);
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
