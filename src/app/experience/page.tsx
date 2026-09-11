@@ -13,7 +13,17 @@ const roles = [
   {
     title: "WBGS",
     meta: "2019 — 2026",
-    body: "Engineering Society - Lead the engineering society at my school, where I taught younger students advanced physics with practical demonstrations \n Co-Lead computer science society where I taught younger students up to advanced programming concepts \n Industrial Cadets - was a chosen candidate for the industrial cadets program where I worked with a team to design and create an automatic UAV hangar using two raspberry pi's earning us the industrial cadet gold award ",
+    body: "Engineering Society - Lead the engineering society at my school, where I taught younger students advanced physics with practical demonstrations",
+  },
+    {
+    title: "WBGS",
+    meta: "2019 — 2026",
+    body: "Co-Lead computer science society where I taught younger students up to advanced programming concepts",
+  },
+    {
+    title: "WBGS",
+    meta: "2019 — 2026",
+    body: "Industrial Cadets - was a chosen candidate for the industrial cadets program where I worked with a team to design and create an automatic UAV hangar using two raspberry pi's earning us the industrial cadet gold award ",
   },
 ];
 
