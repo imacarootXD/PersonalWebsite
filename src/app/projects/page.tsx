@@ -28,6 +28,7 @@ const projects = [
   {
     title: "Personal Website",
     meta: "Next.js",
+    github: "https://github.com/imacarootXD/PersonalWebsite",
     body: "A website designed to showcase my work and skills, with a focus on clean interfaces and thoughtful design (This website).",
   },
 ];

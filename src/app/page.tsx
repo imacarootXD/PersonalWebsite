@@ -13,8 +13,7 @@ export default function HomePage() {
         <Card title="Currently">
           <p>
             Studying Artificial Intelligence and Robotics at University College London,
-            working on various personal projects to improve my skills,
-            and looking for internships and collaborations.
+            working on various personal projects to improve my skills.
           </p>
         </Card>
         <Card title="Looking for">
