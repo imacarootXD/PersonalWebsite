@@ -11,7 +11,7 @@ export default function ContactPage() {
     <PageTemplate
       eyebrow="Hello"
       title="Let’s talk"
-      description="Whether you have a question, want to work together, or just want to say hi, my inbox is always open. I’ll try my best to get back to you!"
+      description="Feel free to reach out to me and I will try to get back to you as soon as possible, details are below."
     >
       <div className="grid gap-4 md:grid-cols-[1.2fr_0.8fr]">
         <Card title="Message">

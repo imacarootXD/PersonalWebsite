@@ -38,8 +38,8 @@ export default function ProjectsPage() {
     <PageTemplate
       eyebrow="Work"
       title="Selected projects"
-      description="A carefully curated selection of my work, showcasing my skills and experience in various areas of development and design.
-      These are my most impactful and complex projects, demonstrating my ability to solve problems, fine-tune solutions, and deliver high-quality results."
+      description="A carefully curated selection of my work, to showcase some of my skills and experience.
+      These tend to be my most complex projects, and should dmemonstrate my immediate skills."
     >
       <div className="grid gap-4 md:grid-cols-2">
         {projects.map((project) => (

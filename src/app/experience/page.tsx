@@ -32,7 +32,7 @@ export default function ExperiencePage() {
     <PageTemplate
       eyebrow="Path"
       title="Experience"
-      description="A chronological template. Dates sit in the card meta so the list stays easy to scan."
+      description=""
     >
       <div className="grid gap-4">
         {roles.map((role) => (
